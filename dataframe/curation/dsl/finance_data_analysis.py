@@ -14,6 +14,7 @@ if __name__ == '__main__':
         .builder \
         .appName("DSL examples") \
         .getOrCreate()
+
     spark.sparkContext.setLogLevel('ERROR')
 
     current_dir = os.path.abspath(os.path.dirname(__file__))
